@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Role.java&apos; to &apos;DemoCollection/src/main/java/com.demoservices.Model&apos;&#x0A;- Original project: &apos;SpringSecurityOAuth&apos;&#x0A;- Destination element: &apos;DemoCollection/src/main/java/com.demoservices.Model&apos;&#x0A;- Original element: &apos;com.bluelight.model.Role.java&apos;" description="Copy compilation unit" destination="=DemoCollection/src\/main\/java&lt;com.demoservices.Model" element1="/src\/main\/java&lt;com.bluelight.model{Role.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1555024706621" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,7 @@
+1551704793134	Rename package 'com.springboot.topic'
+1551704800246	Rename package 'com.learnspringtopic'
+1551714144652	Copy compilation units
+1551714155450	Rename type 'Topic'
+1551714164846	Rename type 'TopicController'
+1551714180328	Rename type 'TopicRepository'
+1551714188265	Rename type 'TopicService'

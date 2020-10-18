@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.bluelight"/>
+			<item value="com.springbootApp"/>
+			<item value="com.courseapi"/>
+			<item value="com.javaspring.springbootfirst"/>
+			<item value="ComHelloSpring"/>
+			<item value="com.firstspring"/>
+			<item value="com.springfirst"/>
+			<item value="com.learnJava"/>
+		</list>
+		<list key="name">
+			<item value="course-api-data"/>
+			<item value="SpringBootFirst"/>
+		</list>
+		<list key="artifactId">
+			<item value="HamroSongSecond"/>
+			<item value="SpringSecurityOAuth"/>
+			<item value="SimpleApp"/>
+			<item value="course-api-data"/>
+			<item value="course-api"/>
+			<item value="HelloSpring"/>
+			<item value="firstspring"/>
+			<item value="springfirst"/>
+			<item value="FirstJSP"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.EditDependencyDialog">
+		<item value="480" key="width"/>
+		<item value="480" key="x"/>
+		<item value="136" key="y"/>
+		<item value="450" key="height"/>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="480" key="width"/>
+		<item value="333" key="x"/>
+		<item value="278" key="y"/>
+		<item value="489" key="height"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/rlama/Documents/workspace/movie"/>
+			<item value="/Users/rlama/Downloads/demoSpringREST"/>
+			<item value="/Users/rlama/Documents/workspace/customer"/>
+			<item value="/Users/rlama/Documents/workspace/student"/>
+			<item value="/Users/rlama/Documents/workspace/StudentApp"/>
+			<item value="/Users/rlama/Documents/workspace/tutorialsession"/>
+			<item value="/Users/rlama/Documents/workspace/CheapinNYC"/>
+			<item value="/Users/rlama/Documents/workspace/NYCProject"/>
+			<item value="/Users/rlama/Documents/workspace/demo"/>
+			<item value="/Users/rlama/Documents/workspace/DemoCollection"/>
+			<item value="/Users/rlama/Documents/workspace/demo-one"/>
+			<item value="/Users/rlama/Downloads/SpringBoot-RESTAPI-Security-with-OAuth2-master 2/springbootrestapioauth"/>
+			<item value="/Users/rlama/Documents/workspace/Spring-oauth2-jpa-example-master"/>
+			<item value="/Users/rlama/Documents/workspace/OAuthExample"/>
+			<item value="/Users/rlama/Documents/workspace/HamroSong"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.editor.dialogs.ManageDependenciesDialog">
+		<item value="933" key="width"/>
+		<item value="494" key="x"/>
+		<item value="226" key="y"/>
+		<item value="450" key="height"/>
+	</section>
+</section>

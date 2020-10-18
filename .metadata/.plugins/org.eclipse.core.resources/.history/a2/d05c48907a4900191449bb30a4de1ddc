@@ -1,0 +1,36 @@
+package com.bluelight.song;
+
+public class Song {
+	private String Id;
+	private String description;
+	private String songTitle;
+	public Song() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Song(String id, String description, String songTitle) {
+		super();
+		Id = id;
+		this.description = description;
+		this.songTitle = songTitle;
+	}
+
+	public String getId() {
+		return Id;
+	}
+	public void setId(String id) {
+		Id = id;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	public String getSongTitle() {
+		return songTitle;
+	}
+	public void setSongTitle(String songTitle) {
+		this.songTitle = songTitle;
+	}
+}

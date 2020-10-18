@@ -1,0 +1,7 @@
+package com.bluelight.song;
+
+public class Song {
+	private String Id;
+	private String description;
+	private String songTitle;
+}

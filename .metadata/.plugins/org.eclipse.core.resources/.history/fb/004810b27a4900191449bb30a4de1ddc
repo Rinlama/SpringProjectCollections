@@ -1,0 +1,5 @@
+package com.bluelight.song;
+
+public class SongController {
+
+}

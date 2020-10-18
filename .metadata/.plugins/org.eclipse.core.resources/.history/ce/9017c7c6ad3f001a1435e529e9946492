@@ -1,0 +1,38 @@
+package com.main.ds;
+
+public class LinearDS {
+	
+	public static class Node{
+		int data;
+		Node next;
+	}
+	public static class LinkedList{
+		
+		public Node head;
+		
+		public void insert(int data){
+			Node n = new Node();
+			n.data=data;
+			if(head==null){
+				head=n;
+			}else{
+				head=head.next;
+			}
+	
+	
+		}
+		public void show(){
+			System.out.println(head.data);
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedList l=new LinkedList();
+		l.insert(1);
+		l.insert(7);
+		l.show();
+	}
+
+}

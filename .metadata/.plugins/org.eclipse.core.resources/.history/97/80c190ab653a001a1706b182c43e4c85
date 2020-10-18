@@ -1,0 +1,51 @@
+package com.main.pj;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.TimeZone;
+
+public class Main {
+
+	public static void main(String[] args) {
+			
+		System.out.println("Hello"); 
+		
+		int []numbers=new int[10];
+		
+		int []random=GenerateRandomNumber(numbers);
+		
+		print(random);
+		
+	}
+	
+	public static void print(int[] number){
+		String print ="";
+		for(int i=0; i< number.length;i++){
+			print=number[i] +"," + print;
+		}	
+		
+		System.out.println(print.substring(number.length-1, number.length-1));
+	}
+	
+	public static int[] GenerateRandomNumber(int [] numbers){
+		
+		int []randnumber= new int[numbers.length];
+		
+		for(int i=0; i< numbers.length;i++){
+			randnumber[i]=(int) (Math.random()*10);
+		}
+		return randnumber;
+	}
+	
+	
+	public static Date DateRepresentation(){
+		Calendar cal = Calendar.getInstance();
+		cal.set(Calendar.YEAR, 1988);
+		cal.set(Calendar.MONTH, Calendar.JANUARY);
+		cal.set(Calendar.DAY_OF_MONTH, 1);
+		return cal.getTime();
+	}
+	
+
+}

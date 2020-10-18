@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;course-api/src/main/resources/Application.properties&apos; to &apos;application.properties&apos;" description="Rename resource &apos;Application.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/Application.properties" name="application.properties" stamp="1550810782079" updateReferences="true"/>
+</session>

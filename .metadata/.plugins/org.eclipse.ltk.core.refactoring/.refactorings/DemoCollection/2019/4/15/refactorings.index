@@ -1,0 +1,17 @@
+1554927374696	Rename package 'com.demoservices.services'
+1554981825998	Rename package 'com.demoservices.fileStorage'
+1554985675568	Delete element
+1555005208755	Rename compilation unit 'ResourceServer.java'
+1555006029687	Rename type 'Config'
+1555007068591	Delete element
+1555015065651	Delete element
+1555019229990	Delete element
+1555019243208	Delete element
+1555020374907	Rename compilation unit 'AuthenticationManagerProvider.java'
+1555020685231	Rename type 'OAuth2SecurityConfiguration'
+1555021967077	Rename compilation unit 'WebSecurity.java'
+1555022236558	Rename compilation unit 'UserService.java'
+1555022262672	Delete element
+1555077214495	Rename compilation unit 'CrosFilter.java'
+1555077339961	Delete element
+1555090440668	Rename compilation unit 'CorsFilter.java'

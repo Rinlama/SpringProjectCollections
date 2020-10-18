@@ -1,0 +1,87 @@
+package com.main.pj;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.TimeZone;
+
+public class Main {
+
+	public static void main(String[] args) {
+			
+		System.out.println("Hello"); 
+		
+		int []numbers=new int[10];
+		
+		int []random=GenerateRandomNumber(numbers);
+		
+		print(random);
+		
+		print(BubbleSort(random));
+		
+	}
+	
+	public static void print(int[] number){
+		StringBuilder print =new StringBuilder();
+		for(int i=0; i< number.length;i++){
+			print.append(number[i] + ",");
+		}	
+		System.out.println(print);
+	}
+	
+	public static int[] BubbleSort(int []numbers){
+		int sort[]=numbers;
+		for(int i=sort.length-1; i > 0;i--){
+			for(int j=0; j<i;j++){
+				if(sort[j]>sort[j+1]){
+					int temp=sort[j];
+					sort[j]=sort[j+1];
+					sort[j+1]=temp;
+				}
+			}
+		}	
+		return sort;
+	}
+    // The Binary Search is quicker than the linear search
+225
+        // because all the values are sorted. Because everything
+226
+        // is sorted once you get to a number larger than what
+227
+        // you are looking for you can stop the search. Also
+228
+        // you be able to start searching from the middle
+229
+        // which speeds the search. It also works best when
+230
+        // there are no duplicates
+231
+         
+
+	public static void BinarySearch(int []array,int value){
+		
+	
+		
+	}
+	
+	public static int[] GenerateRandomNumber(int [] numbers){
+		
+		int []randnumber= new int[numbers.length];
+		
+		for(int i=0; i< numbers.length;i++){
+			randnumber[i]=(int) (Math.random()*10);
+		}
+		return randnumber;
+	}
+	
+	
+	public static Date DateRepresentation(){
+		Calendar cal = Calendar.getInstance();
+		cal.set(Calendar.YEAR, 1988);
+		cal.set(Calendar.MONTH, Calendar.JANUARY);
+		cal.set(Calendar.DAY_OF_MONTH, 1);
+		return cal.getTime();
+	}
+	
+
+}

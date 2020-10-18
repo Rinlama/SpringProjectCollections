@@ -1,0 +1,39 @@
+
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Album example for Bootstrap</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+
+  <body>
+<nav class="navbar navbar-light bg-light">
+  <span class="navbar-brand mb-0 h1">Navbar</span>
+</nav>
+	
+	
+	<table class="table table-hover">
+    <thead>
+        <tr>
+            <th><input type="checkbox" /></th>
+            <th>Unique Item Code</th>
+            <th>Item Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr th:each="mItem : ${Item}">
+            <td><label type="text"
+                    th:text="${mItem.id}" /></td>
+            <td><label type="text"
+                    th:text="${mItem.name}" /></td>
+        </tr>
+    </tbody>                            
+</table>
+	
+  </body>
+</html>

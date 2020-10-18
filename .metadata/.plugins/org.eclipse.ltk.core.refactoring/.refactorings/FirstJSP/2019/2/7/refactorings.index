@@ -1,0 +1,17 @@
+1549812914830	Move 'webapp' to 'java'
+1549840855371	Delete element
+1549842444732	Copy file
+1549843065036	Extract local variable 'name'
+1549843074993	Extract local variable 'password'
+1549846049992	Rename package 'com.learnJSP'
+1549846337415	Rename type 'student'
+1549846366634	Rename compilation unit 'student.java'
+1549846373500	Delete element
+1549846398807	Delete element
+1550115820457	Move 'todo-servlet.xml' to 'WEB-INF'
+1550116133320	Rename package 'com.in28minutes.jee'
+1550121408279	Copy file
+1550121414381	Copy file
+1550121498978	Copy file
+1550121610213	Copy file
+1550121858332	Copy file

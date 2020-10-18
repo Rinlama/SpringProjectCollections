@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringBootFirst
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: rlama
+Implementation-Vendor-Id: com.javaspring.springbootfirst
+Build-Jdk: 1.8.0_92
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/course-api
+Created-By: Maven Integration for Eclipse
+
